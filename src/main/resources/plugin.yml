@@ -1,0 +1,16 @@
+name: PAFishingRod
+version: 0.1
+description: Use your fishing rod as teleportation-tool
+author: lycano
+website: https://github.com/lycano/PAFishingRod
+main: me.MinerSheeps.PAFishingRod.PAFishingRod
+
+commands:
+  pversion:
+    description: Display version of this plugin
+    usage: /<command>
+
+permissions:
+  pafishingrod.pversion:
+    description: Allows the player to use the command PAFishingRod.
+    default: true
