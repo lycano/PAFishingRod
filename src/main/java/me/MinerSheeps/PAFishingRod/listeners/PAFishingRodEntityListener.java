@@ -63,6 +63,8 @@ public class PAFishingRodEntityListener implements Listener {
                             if (!player.teleport(targetLoc)) {
                                 player.sendMessage("Could not teleport to target location");
                             }
+
+                            return;
                         }
                     }
                 }
